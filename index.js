@@ -65,5 +65,5 @@ setInterval(function () {
 
  // javascript for scroll on click
  window.addEventListener("DOMContentLoaded", function () {
-   bindCarouselEvents("med-related-prod-wrapper");
+   bindCarouselEvents("shop-related-prod-wrapper");
  });
