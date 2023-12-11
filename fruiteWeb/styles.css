@@ -41,7 +41,7 @@
   justify-content: space-evenly;
   background-color: white;
   padding: 10px 0;
-
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
   font-size: 20px;
 }
 
@@ -73,7 +73,7 @@ a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
+  /* height: auto; */
 }
 /* hero section slider css */
 .hero-flex {
@@ -83,6 +83,7 @@ a {
   width: 80%;
   height: 100%;
   margin: auto;
+  padding-top: 70px;
   align-items: center;
   font-family: Merienda, "Times New Roman", Times, serif;
 }
@@ -241,6 +242,10 @@ a {
 }
 .organic-product-iteam-main:hover {
   box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+}
+.organic-header-iteams {
+  display: flex;
+  gap: 10px;
 }
 
 .organic-product-iteam1-text {
@@ -462,13 +467,25 @@ a {
 }
 /* banner css end */
 /* best seller css start */
-/* .bestSellerContainer{
-  display: flex;
-} */
+
 .seller-rel-prod-slider-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 40px 0;
+}
+/*  bestseller end */
+/* facts css */
+.facts-section {
+  padding: 50px 30px;
+  background-color: #87878746;
+  font-size: x-large;
+}
+.fact-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.number {
+  font-family: Orbitron, "Times New Roman", Times, serif;
 }
 
 .border-green {
@@ -509,8 +526,15 @@ a {
   border-radius: 100%;
   width: 50%;
 }
+.rounded:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
 .dark {
   color: rgba(34, 32, 32, 0.89);
+}
+.border {
+  border-radius: 10px;
 }
 .product-color {
   color: rgba(24, 24, 24, 0.589);
@@ -520,7 +544,14 @@ a {
   margin: 100px;
 }
 .white {
-  color: #fff;
+  background-color: #fff;
+  color: #333;
+  width: 80%;
+  height: 250px;
+  padding: 50px;
+  font-weight: 900;
+  align-items: center;
+  border-radius: 10px;
 }
 .green {
   color: rgb(11, 182, 11);
@@ -728,8 +759,14 @@ a {
     padding: 80px 3px 5px 10px;
   }
   /* bestSeller */
-  .seller-rel-prod-slider-wrapper{
-    grid-template-columns: repeat(2,1fr);
+  .seller-rel-prod-slider-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* facts */
+  .fact-container{
+      grid-template-columns: 1fr;
+      gap: 15px;
+
   }
 
   /* Text */
