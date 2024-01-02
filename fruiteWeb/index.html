@@ -9,6 +9,12 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     />
+    <!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
     <!--  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +24,7 @@
     <title>FruiteWeb</title>
   </head>
   <body>
-    <div class="">
+    <div class="fixed">
       <!-- first nav -->
       <div class="adds">
         <h2>
@@ -26,7 +32,7 @@
         </h2>
       </div>
       <!-- main navbar -->
-      <nav class="nav-bar">
+      <nav class="nav-bar ">
         <div class="product-name">
           <h3><span class="t">T</span>ima<span class="h">T</span>ech</h3>
         </div>
@@ -36,7 +42,13 @@
               <li><a href="#">HOME</a></li>
               <li><a href="">SHOP</a></li>
               <li><a href=""> SHOP DETAILS</a></li>
-              <li><a href="">PAGES</a></li>
+              <li><a href="#"><select>
+                <option value="1">PAGES</option>
+                <option value="2">Charts</option>
+                <option value="3">Check out</option>
+                <option value="4">Testimonial</option>
+                <option value="5">404 Page</option>
+              </select></a></li>
               <li><a href="">CONTACT US</a></li>
               <li>
                 <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
@@ -82,7 +94,7 @@
       </nav>
     </div>
     <!-- main section -->
-    <div id="hero-section">
+    <main id="hero-section">
       <div class="hero-flex">
         <div class="hero-text">
           <p class="text-xl orange">100% Organic Foods</p>
@@ -119,9 +131,9 @@
           </div>
         <!--image slider end-->
       </div>
-    </div>
+    </main>
     <!-- featured Categories -->
-    <div class="featured-categories section-margin">
+    <section class="featured-categories ">
       <div class="categories-container">
         <div class="category-box">
           <div class="category1">
@@ -167,7 +179,7 @@
        </div>  
       </div>
        
-    </div>
+    </section>
     <!-- featured categories end -->
     <!-- Organic product section start -->
     <div class="organic-products section-margin">
@@ -652,35 +664,63 @@
     <!-- facts end -->
     <!-- Our Testimonial -->
     <div class="section-margin testmonial">
-  <figure class="snip1157">
-  <blockquote>Calvin: You know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
-    <div class="arrow"></div>
-  </blockquote>
-  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg" alt="sq-sample3" />
-  <div class="author">
-    <h5>Pelican Steve <span> LIttleSnippets.net</span></h5>
-  </div>
-</figure>
-<figure class="snip1157 hover">
-  <blockquote>Thank you. before I begin, I'd like everyone to notice that my report is in a professional, clear plastic binder...When a report looks this good, you know it'll get an A. That's a tip kids. Write it down.
-    <div class="arrow"></div>
-  </blockquote>
-  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample27.jpg" alt="sq-sample27" />
-  <div class="author">
-    <h5>Max Conversion<span> LIttleSnippets.net</span></h5>
-  </div>
-</figure>
-<figure class="snip1157">
-  <blockquote>My behaviour is addictive functioning in a disease process of toxic co-dependency. I need holistic healing and wellness before I'll accept any responsibility for my actions.
-    <div class="arrow"></div>
-  </blockquote>
-  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg" alt="sq-sample17" />
-  <div class="author">
-    <h5>Eleanor Faint<span> LIttleSnippets.net</span></h5>
-  </div>
-</figure>
+      <figure class="testmonial-con">
+        <blockquote>Fati: You know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+          <div class="arrow"></div>
+        </blockquote>
+        <img src="./images/testimonial-1.jpg" alt="Testimonial-images" />
+        <div class="author">
+          <h5>Pelican Steve <span> LIttleSnippets.net</span></h5>
+        </div>
+      </figure>
+      <figure class="testmonial-con hover">
+        <blockquote>Fati: You know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+          <div class="arrow"></div>
+        </blockquote>
+        <img src="./images/testimonial-1.jpg" alt="Testimonial-images" />
+        <div class="author">
+          <h5>Ashanti web<span> sometimes.net</span></h5>
+        </div>
+      </figure>
+      <figure class="testmonial-con">
+        <blockquote>Fati: You know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.
+          <div class="arrow"></div>
+        </blockquote>
+        <img src="./images/testimonial-1.jpg" alt="Testimonial-images" />
+        <div class="author">
+          <h5>Ashanti web<span> sometimes.net</span></h5>
+        </div>
+      </figure>
  
     </div>
+    <!-- footer -->
+    <footer>
+      <div class="footer-main bg-dark">
+        <div class="footer">
+          <div class="footer-row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+          <div class="footer-row">
+            <ul>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Career</a></li>
+            </ul>
+          </div>
+          <div class="footer-row">
+              Copyright © 2024 Fati - All rights reserved || Designed By: Mahesh 
+          </div>
+        </div>
+      </div>
+    </footer>
+     
+
+     
 
 
     
