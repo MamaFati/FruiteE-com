@@ -78,6 +78,7 @@ a {
   background-size: cover;
   height: 100%;
   padding: 150px 0;
+  width: 100%;
 }
 /* hero section slider css */
 .hero-flex {
@@ -828,6 +829,7 @@ select option {
   margin: 10px 20px;
   list-style: none;
 }
+ 
 
 .mobile-menu ul li a {
   font-size: 20px;
@@ -840,6 +842,9 @@ select option {
   transition: 0.5s;
 }
 @media (max-width: 670px) {
+  body{
+    margin: 0 !important;
+  }
   .nav-items {
     display: none;
   }
